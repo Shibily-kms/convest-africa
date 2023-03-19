@@ -1,0 +1,17 @@
+.i-icon{
+    background-image: radial-gradient(var(--color-green-ligth), var(--color-green-dark));
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: grid;
+    place-content: center;
+    color: white;
+}
+.i-small{
+    padding: 20px;
+    font-size: 20px;
+}

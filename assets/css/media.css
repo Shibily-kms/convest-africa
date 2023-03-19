@@ -1,0 +1,40 @@
+@media screen and (max-width: 800px) {
+    /* Header */
+    .header{
+        grid-template-columns: 35% auto;
+    }
+    .header .right{
+        justify-content: flex-end;
+    }
+    .header .right .search-div{
+        display: none;
+    }
+    .header .right .icons .search {
+        display: grid;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    /* Header */
+    .header{
+        grid-template-columns: 100%;
+    }
+    .header .left{
+        background-color: rgb(255, 255, 255);
+        clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
+    }
+    .header .right {
+
+        justify-content: center;
+        align-items: center;
+        padding: 10px 10% ;
+    }
+    .header .right .icons {
+        display: flex;
+    }
+    .header .right .icons div{
+        margin: 0 5px;
+        cursor: pointer;
+    }
+    
+}
