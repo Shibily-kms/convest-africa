@@ -1,67 +1,102 @@
 @media screen and (max-width : 900px) {
+
     /* Profile */
-    .profile .content .title{
+    .profile .content .title {
         padding-left: 40%;
     }
-    
-    .profile .content .name{
+
+    .profile .content .name {
         padding-left: 40%;
     }
-    .profile .content .item-div{
+
+    .profile .content .item-div {
         padding-left: 40%;
+    }
+
+    /* Content */
+
+  
+    .container .boader{
+        width: 1000px;
+        max-width: 100%;
+        gap: 30px;
+        grid-template-columns: 280px auto;
+        
     }
 
 }
 
 @media screen and (max-width: 800px) {
+
     /* Header */
-    .header{
+    .header {
         grid-template-columns: 35% auto;
     }
-    .header .right{
+
+    .header .right {
         justify-content: flex-end;
     }
-    .header .right .search-div{
+
+    .header .right .search-div {
         display: none;
     }
+
     .header .right .icons .search {
         display: grid;
+    }
+
+    /* Content */
+    .container .boader{
+        width: 500px;
+        max-width: 100%;
+        gap: 0px;
+        grid-template-columns: 100%;
+        
     }
 }
 
 @media screen and (max-width: 550px) {
+
     /* Header */
-    .header{
+    .header {
         grid-template-columns: 100%;
     }
-    .header .left{
+
+    .header .left {
         background-color: rgb(255, 255, 255);
         clip-path: polygon(0 0, 100% 0%, 100% 100%, 0% 100%);
     }
+
     .header .right {
 
         justify-content: center;
         align-items: center;
-        padding: 10px 10% ;
+        padding: 10px 10%;
     }
+
     .header .right .icons {
         display: flex;
     }
-    .header .right .icons div{
+
+    .header .right .icons div {
         margin: 0 5px;
         cursor: pointer;
     }
+
     /* Profile */
-    .profile{
+    .profile {
         margin-top: 110px;
     }
+
     .profile .content .title {
         padding-left: 25px;
     }
+
     .profile .content .name {
         padding-left: 25px;
         text-align: center;
     }
+
     .profile .content .item-div {
         padding-left: 25px;
     }
@@ -69,17 +104,17 @@
     .profile .content .profile-image {
         left: 50%;
         top: -65%;
-        transform: translate(-50% ,0 );
-        -webkit-transform: translate(-50% ,0 );
-        -moz-transform: translate(-50% ,0 );
-        -ms-transform: translate(-50% ,0 );
-        -o-transform: translate(-50% ,0 );
-}
+        transform: translate(-50%, 0);
+        -webkit-transform: translate(-50%, 0);
+        -moz-transform: translate(-50%, 0);
+        -ms-transform: translate(-50%, 0);
+        -o-transform: translate(-50%, 0);
+    }
 
-    .profile .content .profile-image img{
+    .profile .content .profile-image img {
         width: 100px;
         border: 3px solid white;
     }
-    
-    
+
+
 }

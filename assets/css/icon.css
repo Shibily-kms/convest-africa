@@ -5,13 +5,19 @@
     -moz-border-radius: 100%;
     -ms-border-radius: 100%;
     -o-border-radius: 100%;
-    width: 20px;
-    height: 20px;
     display: grid;
     place-content: center;
     color: white;
-}
-.i-small{
     padding: 20px;
+}
+.i-large{
     font-size: 20px;
+    width: 20px;
+    height: 20px;
+}
+
+.i-small{
+    font-size: 15px;
+    width: 10px;
+    height: 10px;
 }

@@ -95,7 +95,7 @@ body {
     top: -30px;
 }
 
-.profile .content .profile-image img{
+.profile .content .profile-image img {
     width: 180px;
     border-radius: 100%;
     -webkit-border-radius: 100%;
@@ -105,40 +105,241 @@ body {
 }
 
 .profile .content .title {
-    background-image: linear-gradient(to right, var(--color-green-dark), var(--color-green-light),var(--color-green-dark));
+    background-image: linear-gradient(to right, var(--color-green-dark), var(--color-green-light), var(--color-green-dark));
     margin-top: -4px;
     display: flex;
     padding: 15px 25px 15px 33%;
     color: white;
 }
-.profile .content .title h4{
+
+.profile .content .title h4 {
     font-size: 20px;
     font-weight: 500;
     width: 100%;
     text-align: center;
 }
-.profile .content .name{
+
+.profile .content .name {
     padding: 5px 25px 5px 30%;
-    background-image: linear-gradient(to right, var(--color-yellow-dark), var(--color-yellow-light),var(--color-yellow-dark));
+    background-image: linear-gradient(to right, var(--color-yellow-dark), var(--color-yellow-light), var(--color-yellow-dark));
 }
-.profile .content .name h4{
+
+.profile .content .name h4 {
     font-size: 28px;
     color: white;
 }
+
 .profile .content .item-div {
     background-color: var(--color-black);
     display: flex;
     padding: 10px 25px 10px 30%;
     color: white;
 }
+
 .profile .content .item-div .item {
     width: 100%;
     text-align: center;
 }
 
-.profile .content .item-div .item h4{
+.profile .content .item-div .item h4 {
     font-size: 21px;
 }
-.profile .content .item-div .item p{
+
+.profile .content .item-div .item p {
     font-size: 13px;
+}
+
+
+/* Content */
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    padding-top: 40px;
+    background-color: #D9D9D9;
+}
+
+.container .boader {
+    width: 1000px;
+    max-width: 100%;
+    display: grid;
+    gap: 80px;
+    grid-template-columns: 300px auto;
+
+}
+
+.container .boader .left .location .box {
+    background-color: var(--color-black);
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    color: white;
+    padding: 10px 15px;
+}
+
+.container .boader .left .location i {
+    font-size: 20px;
+}
+
+.container .boader .left .location p {
+    font-size: 16px;
+    margin: 0;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.container .boader .left .info p {
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.container .boader .left .head {
+    background-color: var(--color-black);
+    padding: 10px 15px;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.container .boader .left .head i {
+    font-size: 25px;
+}
+
+.container .boader .left .head h4 {
+    font-size: 24px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.container .boader .left .content {
+    background-color: #F2F2F2;
+    padding: 20px
+}
+
+.container .boader .left .radios {
+    border-bottom-left-radius: 40px;
+}
+
+.container .boader .left .about p {
+    font-size: 13px;
+}
+
+.container .boader .left .image .empty {
+    font-size: 13px;
+    height: 200px;
+}
+
+.container .boader .left .friends .profile-card {
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+}
+
+.container .boader .left .friends .profile-card img {
+    width: 80px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    margin-right: 10px;
+}
+
+.container .boader .left .friends .profile-card h4 {
+    font-size: 16px;
+}
+
+.container .boader .left .friends .profile-card p {
+    font-size: 12px;
+}
+
+.container .boader .left .friends .profile-card button {
+    background-color: var(--color-cy-blue);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin-top: 5px;
+    color: white;
+}
+
+/* Right */
+.container .boader .right .box .head {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    justify-content: space-between;
+    background-image: linear-gradient(to right, var(--color-yellow-dark), var(--color-yellow-light), var(--color-yellow-dark));
+    color: white;
+    margin-top: 25px;
+}
+
+.container .boader .right .box .head p {
+    font-size: 14px;
+}
+
+.container .boader .right .box .head .left {
+    display: flex;
+    align-items: center;
+}
+
+.container .boader .right .box .head .left img {
+    width: 45px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    border: white 2px solid;
+    margin-right: 10px;
+}
+
+.container .boader .right .box .head .left h4 {
+    font-weight: normal;
+    font-size: 19px;
+}
+
+.container .boader .right .box .content {
+    background-color: #F2F2F2;
+    padding: 25px;
+}
+
+.container .boader .right .box .last {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 20px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+.container .boader .right .box .last .left {
+    display: flex;
+
+}
+
+.container .boader .right .box .last .left div {
+    margin: 0 3px;
+}
+
+.container .boader .right .box .last button {
+    background-color: var(--color-cy-blue);
+    border: none;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 30px;
+    margin-top: 5px;
+    color: white;
+    cursor: pointer;
 }
