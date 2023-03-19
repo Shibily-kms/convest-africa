@@ -13,6 +13,11 @@ body {
     display: grid;
     grid-template-columns: 25% auto;
     background-color: var(--color-black);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 5;
 
 }
 
@@ -69,4 +74,71 @@ body {
 .header .right .icons div {
     margin: 0 5px;
     cursor: pointer;
+}
+
+/* Profile */
+.profile {
+    margin-top: 60px;
+}
+
+.profile .banner img {
+    width: 100%;
+}
+
+.profile .content {
+    position: relative;
+}
+
+.profile .content .profile-image {
+    position: absolute;
+    left: 8%;
+    top: -30px;
+}
+
+.profile .content .profile-image img{
+    width: 180px;
+    border-radius: 100%;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+}
+
+.profile .content .title {
+    background-image: linear-gradient(to right, var(--color-green-dark), var(--color-green-light),var(--color-green-dark));
+    margin-top: -4px;
+    display: flex;
+    padding: 15px 25px 15px 33%;
+    color: white;
+}
+.profile .content .title h4{
+    font-size: 20px;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+}
+.profile .content .name{
+    padding: 5px 25px 5px 30%;
+    background-image: linear-gradient(to right, var(--color-yellow-dark), var(--color-yellow-light),var(--color-yellow-dark));
+}
+.profile .content .name h4{
+    font-size: 28px;
+    color: white;
+}
+.profile .content .item-div {
+    background-color: var(--color-black);
+    display: flex;
+    padding: 10px 25px 10px 30%;
+    color: white;
+}
+.profile .content .item-div .item {
+    width: 100%;
+    text-align: center;
+}
+
+.profile .content .item-div .item h4{
+    font-size: 21px;
+}
+.profile .content .item-div .item p{
+    font-size: 13px;
 }

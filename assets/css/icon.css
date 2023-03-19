@@ -1,5 +1,5 @@
 .i-icon{
-    background-image: radial-gradient(var(--color-green-ligth), var(--color-green-dark));
+    background-image: radial-gradient(var(--color-green-light), var(--color-green-dark));
     border-radius: 100%;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;

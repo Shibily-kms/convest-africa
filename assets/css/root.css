@@ -1,7 +1,9 @@
 :root{
     --color-black : #282828;
-    --color-green-ligth : #036E32;
+    --color-green-light : #036E32;
     --color-green-dark : #073823;
-    
+    --color-yellow-dark : #997804;
+    --color-yellow-light : #F9BC16;
+
 
 }
