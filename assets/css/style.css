@@ -309,6 +309,52 @@ body {
     background-color: #F2F2F2;
     padding: 25px;
 }
+.container .boader .right .box .content .test .t-title {
+    background-color: var(--color-cy-blue);
+    display: flex;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.container .boader .right .box .content .test .t-title i {
+    font-size: 22px;
+}   
+
+.container .boader .right .box .content .test .t-title p {
+    font-size: 20px;
+    margin-left: 10px;
+}   
+
+.container .boader .right .box .content .test .item{
+    width: 100%;
+    margin-top: 10px;
+}
+
+.container .boader .right .box .content .test .item label{
+    font-weight: bold;
+}
+
+.container .boader .right .box .content .test .item input{
+    width: 100%;
+    border: none;
+    background-color: rgb(202, 202, 202);
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .container .boader .right .box .last {
     display: flex;
@@ -317,6 +363,7 @@ body {
     padding: 20px;
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
+    margin-bottom: 50px;
 }
 
 .container .boader .right .box .last .left {
@@ -342,4 +389,18 @@ body {
     margin-top: 5px;
     color: white;
     cursor: pointer;
+}
+
+.container .boader .right .box .bottom {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 15px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin-bottom: 50px;
+}
+
+.container .boader .right .box .bottom div {
+    margin: 0 5px;
 }
